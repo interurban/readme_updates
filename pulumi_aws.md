@@ -12,7 +12,6 @@
 
 # Amazon Web Services (AWS) provider for Pulumi
 
-
 The Amazon Web Services (AWS) resource provider for Pulumi allows you to manage and deploy AWS resources using programming languages that you already know and love. To use this package, visit our docs to [install the Pulumi CLI](https://www.pulumi.com/docs/get-started/install/?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=getting-started-install) or follow a step-by-step Pulumi AWS tutorial, including language runtime installation and AWS configuration steps.
 
 <div>
@@ -21,7 +20,15 @@ The Amazon Web Services (AWS) resource provider for Pulumi allows you to manage 
     </a>
 </div>
 
-## Install the Amazon Web Services (AWS) provider for Pulumi
+## Table of contents
+
+- [Install](#install)
+- [AWS Pulumi Concepts](#concepts)
+- [Configuration](#configuration)
+- [Reference](#Reference)
+- [Community](#community)
+
+## Install
 
 Pulumi's Amazon Web Services (AWS) resource provider package is available in many languages in the standard packaging formats.
 
@@ -53,7 +60,7 @@ To use from .NET, install using `dotnet add package`:
 
     $ dotnet add package Pulumi.Aws
 
-## Pulumi AWS Package Concepts
+## AWS Pulumi Concepts
 
 The `@pulumi/aws` package provides a strongly-typed means to create cloud applications that create and interact closely
 with AWS resources.  Resources are exposed for the entirety of AWS resources and their properties, including (but not
@@ -65,7 +72,7 @@ For additional examples, how-to guides and our full AWS API docs visit [pulumi.c
 ### Serverless Functions
 
 The `aws.lambda.CallbackFunction` class allows you to create an AWS lambda function directly out of a JavaScript/TypeScript
-function object of the right signature. This allows a Pulumi program to simply define a lambda using a simple lambda in
+function object of the right signature. This allows a Pulumi program to define a lambda using a simple lambda in
 the language of choice, while having Pulumi itself do the appropriate transformation into the final AWS Lambda resource.
 
 This makes many APIs easier to use, such as defining a Lambda to execute when an S3 Bucket is manipulated,
@@ -115,9 +122,9 @@ The following configuration points are available:
 
 ### Authenticating pulumi-aws via EC2 Instance Metadata?
 
-As of pulumi-aws v3.28.1, the default behaviour for the provider [was changed](https://github.com/pulumi/pulumi-aws/blob/master/CHANGELOG_OLD.md#3281-2021-02-10) to disable MetadataApiCheck by default. This means, you need to do either of the following
+As of pulumi-aws v3.28.1, the default behavior for the provider [was changed](https://github.com/pulumi/pulumi-aws/blob/master/CHANGELOG_OLD.md#3281-2021-02-10) to disable MetadataApiCheck by default. This means you need to do either of the following:
 
-1. When using the default provider:
+1. When using the default provider
 ```
 pulumi config set aws:skipMetadataApiCheck false
 ```
@@ -153,3 +160,9 @@ provider = pulumi_aws.Provider('named-provider', skip_metadata_api_check=False)
 
 For further information, visit [AWS in the Pulumi Registry](https://www.pulumi.com/registry/packages/aws/)
 or for detailed API reference documentation, visit [AWS API Docs in the Pulumi Registry](https://www.pulumi.com/registry/packages/aws/api-docs/).
+
+## Pulumi Community
+
+- Join us in the [Pulumi Community Slack](https://slack.pulumi.com/?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=welcome-slack) to connect with our community and engineering team and ask questions. All conversations and questions are welcome.
+- Send us a tweet via [(]@PulumiCorp](https://twitter.com/PulumiCorp)
+- Watch videos and workshops on [Pulumi TV](https://www.youtube.com/pulumitv)
