@@ -1,3 +1,7 @@
+<a href="https://www.pulumi.com?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=top-logo" title="Pulumi - Modern Infrastructure as Code - AWS Azure Kubernetes Containers Serverless">
+    <img src="https://www.pulumi.com/images/logo/logo-on-white-box.svg?" width="350">
+</a>
+
 [![Actions Status](https://github.com/pulumi/pulumi-aws/workflows/master/badge.svg)](https://github.com/pulumi/pulumi-aws/actions)
 [![Slack](http://www.pulumi.com/images/docs/badges/slack.svg)](https://slack.pulumi.com)
 [![NPM version](https://badge.fury.io/js/%40pulumi%2Faws.svg)](https://www.npmjs.com/package/@pulumi/aws)
@@ -6,20 +10,20 @@
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/pulumi/pulumi-aws/sdk/v6/go)](https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v6/go)
 [![License](https://img.shields.io/github/license/pulumi/pulumi-aws)](https://github.com/pulumi/pulumi-aws/blob/master/LICENSE)
 
-# Amazon Web Services (AWS) provider
+# Amazon Web Services (AWS) provider for Pulumi
 
 The Amazon Web Services (AWS) resource provider for Pulumi lets you use AWS resources in your cloud programs. To use
-this package, [install the Pulumi CLI](https://www.pulumi.com/docs/get-started/install/). For a streamlined Pulumi walkthrough, including language runtime installation and AWS configuration, select "Get Started" below.
+this package, [install the Pulumi CLI](https://www.pulumi.com/docs/get-started/install/?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=getting-started-install). For a streamlined Pulumi walkthrough, including language runtime installation and AWS configuration, select "Get Started" below.
 
 <div>
-    <a href="https://www.pulumi.com/docs/get-started/aws" title="Get Started">
+    <a href="https://www.pulumi.com/docs/get-started/aws?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=get-started-button" title="Get Started">
        <img src="https://www.pulumi.com/images/get-started.svg?" width="120">
     </a>
 </div>
 
-## Installing
+## Install the Amazon Web Services (AWS)WS provider for Pulumi
 
-This package is available in many languages in the standard packaging formats.
+Pulumi's Amazon Web Services (AWS) resource provider package is available in many languages in the standard packaging formats.
 
 ### Node.js (Java/TypeScript)
 
@@ -49,12 +53,14 @@ To use from .NET, install using `dotnet add package`:
 
     $ dotnet add package Pulumi.Aws
 
-## Concepts
+## Pulumi AWS Package Concepts
 
 The `@pulumi/aws` package provides a strongly-typed means to create cloud applications that create and interact closely
 with AWS resources.  Resources are exposed for the entirety of AWS resources and their properties, including (but not
 limited to), 'apigateway', 'cloudformation', 'EC2', 'ECS', 'iam', 'lambda', etc.  Many convenience APIs have also been
 added to make development easier and to help avoid common mistakes, and to get stronger typing.
+
+For additional examples, how-to guides and our full AWS API docs visit [pulumi.com/registry/packages/aws/](https://www.pulumi.com/registry/packages/aws/)
 
 ### Serverless Functions
 
