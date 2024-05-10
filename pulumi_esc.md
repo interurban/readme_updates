@@ -13,9 +13,10 @@ Pulumi ESC enables teams to aggregate secrets and configuration from many source
 
 For example, the Pulumi ESC CLI (`esc`) makes it possible to give your developers immediate, just-in-time authenticated and short-lived access to cloud credentials across any cloud provider with just a single command: `esc run aws-staging -- aws s3 ls`.
 
-  <a href="https://www.pulumi.com/docs/esc/get-started/?utm_campaign=pulumi-pulumi-github-repo&utm_source=github.com&utm_medium=get-started-button" title="Get Started">
+<p>
+<a href="https://www.pulumi.com/docs/esc/get-started/?utm_campaign=pulumi-pulumi-github-repo&utm_source=github.com&utm_medium=get-started-button" title="Get Started">
     <img src="https://www.pulumi.com/images/get-started.svg?" align="right" width="120" alt="Click here to get started with Pulumi ESC">
-  </a>
+</a>
 </p>
 
 ![Pulumi ESC Overview GIF](./assets/esc.gif)
@@ -28,13 +29,10 @@ Pulumi ESC is offered as a managed service as part of Pulumi Cloud, and this rep
 ## Table of contents
 
 - :rocket: [Getting Started](#getting-started)
-  - :blue_book: [Docs](#docs)
-  - :hammer_and_wrench: [Examples](#examples)
+- :blue_book: [Documentation](#docs)
 - :hammer_and_wrench: [How Pulumi ESC works](#how-pulumi-esc-works)
-- :toolbox:	[Registry](#registry)
 - :compass:	[Pulumi ESC Roadmap](#pulumi-roadmap)
 - :busts_in_silhouette: [Community](#community)
-
 
 ## Getting Started
 
