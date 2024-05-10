@@ -12,16 +12,16 @@
 
 # Amazon Web Services (AWS) provider for Pulumi
 
-The Amazon Web Services (AWS) resource provider for Pulumi lets you use AWS resources in your cloud programs. To use
-this package, [install the Pulumi CLI](https://www.pulumi.com/docs/get-started/install/?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=getting-started-install). For a streamlined Pulumi walkthrough, including language runtime installation and AWS configuration, select "Get Started" below.
+
+The Amazon Web Services (AWS) resource provider for Pulumi allows you to manage and deploy AWS resources using programming languages that you already know and love. To use this package, visit our docs to [install the Pulumi CLI](https://www.pulumi.com/docs/get-started/install/?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=getting-started-install) or follow a step-by-step Pulumi AWS tutorial, including language runtime installation and AWS configuration steps.
 
 <div>
     <a href="https://www.pulumi.com/docs/get-started/aws?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=get-started-button" title="Get Started">
-       <img src="https://www.pulumi.com/images/get-started.svg?" width="120">
+       <img src="https://www.pulumi.com/images/get-started.svg?" width="120" alt="Click here to get started with Pulumi with AWS">
     </a>
 </div>
 
-## Install the Amazon Web Services (AWS)WS provider for Pulumi
+## Install the Amazon Web Services (AWS) provider for Pulumi
 
 Pulumi's Amazon Web Services (AWS) resource provider package is available in many languages in the standard packaging formats.
 
