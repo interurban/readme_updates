@@ -12,7 +12,7 @@
 
 # Amazon Web Services (AWS) provider for Pulumi
 
-The Amazon Web Services (AWS) resource provider for Pulumi allows you to manage and deploy AWS resources using programming languages that you already know and love. To use this package, visit our docs to [install the Pulumi CLI](https://www.pulumi.com/docs/get-started/install/?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=getting-started-install) or follow a step-by-step Pulumi AWS tutorial, including language runtime installation and AWS configuration steps.
+The Amazon Web Services (AWS) resource provider for Pulumi allows you to manage and deploy AWS resources using programming languages that you already know and love. To use this package, visit our docs to [install the Pulumi CLI](https://www.pulumi.com/docs/get-started/install/?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=getting-started-install) or follow a step-by-step Pulumi AWS tutorial using the button below, including language runtime installation and AWS configuration steps.
 
 <div>
     <a href="https://www.pulumi.com/docs/get-started/aws?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=get-started-button" title="Get Started">
@@ -66,8 +66,6 @@ The `@pulumi/aws` package provides a strongly-typed means to create cloud applic
 with AWS resources.  Resources are exposed for the entirety of AWS resources and their properties, including (but not
 limited to), 'apigateway', 'cloudformation', 'EC2', 'ECS', 'iam', 'lambda', etc.  Many convenience APIs have also been
 added to make development easier and to help avoid common mistakes, and to get stronger typing.
-
-For additional examples, how-to guides and our full AWS API docs visit [pulumi.com/registry/packages/aws/](https://www.pulumi.com/registry/packages/aws/)
 
 ### Serverless Functions
 
@@ -158,8 +156,8 @@ provider = pulumi_aws.Provider('named-provider', skip_metadata_api_check=False)
 
 ## Reference
 
-For further information, visit [AWS in the Pulumi Registry](https://www.pulumi.com/registry/packages/aws/)
-or for detailed API reference documentation, visit [AWS API Docs in the Pulumi Registry](https://www.pulumi.com/registry/packages/aws/api-docs/).
+For further information, visit [AWS in the Pulumi Registry](https://www.pulumi.com/registry/packages/aws/?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=github-reference-link)
+or for detailed API reference documentation, visit [AWS API Docs in the Pulumi Registry](https://www.pulumi.com/registry/packages/aws/api-docs/?utm_campaign=pulumi-aws-github-repo&utm_source=github.com&utm_medium=github-reference-link).
 
 ## Pulumi Community
 
