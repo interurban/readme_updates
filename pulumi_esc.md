@@ -7,6 +7,8 @@
   [![Slack](http://www.pulumi.com/images/docs/badges/slack.svg)](https://slack.pulumi.com?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=slack-badge)
   [![Follow](https://img.shields.io/twitter/follow/pulumicorpw)](Follow)
   ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/pulumicorp)
+  ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/PulumiCorp)
+
 
 
 # Pulumi ESC (Environments, Secrets, and Configuration)
