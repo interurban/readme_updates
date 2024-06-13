@@ -112,9 +112,9 @@ Review the planned work for the upcoming quarter and a selected backlog of issue
 
 ## Resources
 
-- [Docs](https://pulumi.com/docs/pulumi-cloud/esc?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources) for comprehensive documentation and guides
+- [Docs](https://pulumi.com/docs/pulumi-cloud/esc?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources)
 - [Slack](?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources)
 - [Twitter](https://twitter.com/PulumiCorp)
 - [YouTube](https://www.youtube.com/pulumitv)
-- [Blog](https://pulumi.com/blog?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources) for secret management insights, articles, tutorials, and updates
+- [Blog](https://pulumi.com/blog?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources)
 - [Roadmap](https://github.com/orgs/pulumi/projects/44)
