@@ -7,26 +7,26 @@
   [![Slack](http://www.pulumi.com/images/docs/badges/slack.svg)](https://slack.pulumi.com?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=slack-badge)
   [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/PulumiCorp)](https://x.com/PulumiCorp)
 
-
-
 # Pulumi ESC (Environments, Secrets, and Configuration)
 
-**[Pulumi ESC](https://www.pulumi.com/product/esc/)** is the open source secrets management platform that tames secrets and configuration complexity across all of your cloud infrastructure and application environments.
+**[Pulumi ESC](https://www.pulumi.com/product/esc/)** is an open source secrets management platform that tames secrets and configuration complexity across all of your cloud infrastructure and application environments.
 
-Pulumi ESC enables teams to aggregate secrets and configuration from many sources, manage hierarchical collections of configuration and secrets ("environments"), and consume those configuration and secrets from a variety of different infrastructure and application services.  Pulumi ESC works hand-in-hand with Pulumi IaC to simplify configuration management, but also works independently from Pulumi IaC, as a solution for managing environments, secrets and configuration for any application or infrastructure project.
+Pulumi ESC enables teams to aggregate secrets and configuration from many sources, manage hierarchical collections of configuration and secrets as environments, and consume those configuration and secrets from a variety of different infrastructure and application services.
+
+Pulumi ESC works hand-in-hand with Pulumi IaC to simplify configuration management, but also works independently from Pulumi IaC, as a solution for managing environments, secrets and configuration for any application or infrastructure project.
 
 For example, the Pulumi ESC CLI (`esc`) makes it possible to give your developers immediate, just-in-time authenticated and short-lived access to cloud credentials across any cloud provider with just a single command: `esc run aws-staging -- aws s3 ls`.
 
-![Pulumi ESC Overview GIF](./assets/esc.gif)
+![Pulumi's open source secrets management solution overview](./assets/esc.gif)
 
-Pulumi ESC is offered as a managed service as part of Pulumi Cloud, and this repo contains the implementation of the following key components of the ESC offering:
+Pulumi ESC is offered as a managed service as part of Pulumi Cloud, and this repo contains the implementation of the following key components of the ESC open source secrets and configuration management solution:
 
 1. The `esc` CLI:  A CLI tool for managing and consuming environments, secrets and configuration using Pulumi ESC.
 2. The Pulumi ESC evaluator:  The core specification and implementation of the document format for defining environments, and the syntax and semantics for evaluating environments to produce a set of configuration and secrets.
 
 <div>
-<a href="https://www.pulumi.com/docs/esc/get-started/?utm_campaign=pulumi-pulumi-github-repo&utm_source=github.com&utm_medium=get-started-button" title="Get Started">
-    <img src="https://www.pulumi.com/images/get-started.svg?" align="center" width="120" alt="Click here to get started with Pulumi ESC">
+<a href="https://www.pulumi.com/docs/esc/get-started/?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=get-started-button" title="Get Started">
+    <img src="https://www.pulumi.com/images/get-started.svg?" align="center" width="120" alt="Click here to get started with Pulumi's open source secrets manager ESC">
 </a>
 </div>
 
@@ -35,10 +35,12 @@ Pulumi ESC is offered as a managed service as part of Pulumi Cloud, and this rep
 - :rocket: [Getting Started](#getting-started)
 - :blue_book: [Documentation](https://pulumi.com/docs/pulumi-cloud/esc)
 - :hammer_and_wrench: [How Pulumi ESC works](#how-pulumi-esc-works)
-- :compass:	[Pulumi ESC Roadmap](#pulumi-roadmap)
-- :busts_in_silhouette: [Community](#community)
+- :compass:	[Pulumi ESC Roadmap](https://github.com/orgs/pulumi/projects/44)
+- :busts_in_silhouette: [Community](https://slack.pulumi.com/?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=welcome-slack)
 
 ## Getting Started
+
+For a hands-on, self-paced tutorial see our Pulumi ESC [Getting Started](https://pulumi.com/docs/pulumi-cloud/esc/get-started?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=getting-started-install) to quickly get up and running.
 
 ### Download and Install
 
@@ -50,10 +52,6 @@ Pulumi ESC is offered as a managed service as part of Pulumi Cloud, and this rep
     ```bash
     $ curl -fsSL https://get.pulumi.com/ | sh
     ```
-
-### ESC Getting Started 
-
-For a hands-on, self-paced tutorial see our Pulumi ESC [Getting Started](https://pulumi.com/docs/pulumi-cloud/esc/get-started?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=getting-started-install) to quickly get up and running.
 
 ### Building the CLI Locally
 
@@ -69,7 +67,7 @@ This will produce an `esc` binary in your `GOBIN` directory.
 
 ![Pulumi ESC Graphic V4](./assets/overview.png)
 
-1. Pulumi ESC enables you to define environments, which are collections of secrets and configuration. Each environment can be composed from  multiple environments.
+1. Pulumi ESC enables you to define environments, which are collections of secrets and configuration. Each environment can be composed from multiple environments.
 2. Pulumi ESC supports a variety of configuration and secrets sources, and it has an extensible plugin model that allows third-party sources.
 3. Pulumi ESC has a rich API that allows for easy integration.  Every value in an environment can be accessed from any execution environment.
 4. Every environment can be locked down with RBAC, versioned, and audited.
@@ -101,3 +99,12 @@ Review the planned work for the upcoming quarter and a selected backlog of issue
 - Join us in the [Pulumi Community Slack](https://slack.pulumi.com/?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=welcome-slack) to connect with our community and engineering team and ask questions. All conversations and questions are welcome.
 - Send us a tweet via [@PulumiCorp](https://twitter.com/PulumiCorp)
 - Watch videos and workshops on [Pulumi TV](https://www.youtube.com/pulumitv)
+
+## Resources
+
+- [Docs](https://pulumi.com/docs/pulumi-cloud/esc?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources) for comprehensive documentation and guides
+- [Slack](?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources)
+- [Twitter](https://twitter.com/PulumiCorp)
+- [YouTube](https://www.youtube.com/pulumitv)
+- [Blog](https://pulumi.com/blog?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources) for secret management insights, articles, tutorials, and updates
+- [Roadmap](https://github.com/orgs/pulumi/projects/44)
