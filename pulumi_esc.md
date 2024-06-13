@@ -17,7 +17,7 @@ Pulumi ESC works hand-in-hand with Pulumi IaC to simplify configuration manageme
 
 For example, the Pulumi ESC CLI (`esc`) makes it possible to give your developers immediate, just-in-time authenticated and short-lived access to cloud credentials across any cloud provider with just a single command: `esc run aws-staging -- aws s3 ls`.
 
-![Pulumi's open source secrets management solution overview](./assets/esc.gif)
+![Pulumi's open source secrets management solution overview](./assets/esc_product_demo.gif)
 
 Pulumi ESC is offered as a managed service as part of Pulumi Cloud, and this repo contains the implementation of the following key components of the ESC open source secrets and configuration management solution:
 
@@ -38,11 +38,11 @@ Pulumi ESC is offered as a managed service as part of Pulumi Cloud, and this rep
 - :compass:	[Pulumi ESC Roadmap](https://github.com/orgs/pulumi/projects/44)
 - :busts_in_silhouette: [Community](https://slack.pulumi.com/?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=welcome-slack)
 
-## Getting Started
+## Getting Started with Pulumi ESC
 
 For a hands-on, self-paced tutorial see our Pulumi ESC [Getting Started](https://pulumi.com/docs/pulumi-cloud/esc/get-started?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=getting-started-install) to quickly get up and running.
 
-### Download and Install
+### Download and Install Pulumi ESC
 
 1. **Install**:
 
@@ -53,7 +53,7 @@ For a hands-on, self-paced tutorial see our Pulumi ESC [Getting Started](https:/
     $ curl -fsSL https://get.pulumi.com/ | sh
     ```
 
-### Building the CLI Locally
+### Building the ESC CLI Locally
 
 You can build the CLI locally for testing by cloning this repo and running:
 
@@ -65,7 +65,7 @@ This will produce an `esc` binary in your `GOBIN` directory.
 
 ## How Pulumi ESC works
 
-![Pulumi ESC Graphic V4](./assets/overview.png)
+![Pulumi ESC: Open source secrets managment overview](./assets/pulumi_esc_overview.png)
 
 1. Pulumi ESC enables you to define environments, which are collections of secrets and configuration. Each environment can be composed from multiple environments.
 2. Pulumi ESC supports a variety of configuration and secrets sources, and it has an extensible plugin model that allows third-party sources.
