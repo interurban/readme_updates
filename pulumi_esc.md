@@ -34,7 +34,7 @@ Pulumi ESC is offered as a managed service as part of [Pulumi Cloud,](https://ww
 
 - :rocket: [Getting Started](#getting-started-with-pulumi-esc)
 - :blue_book: [Documentation](https://pulumi.com/docs/pulumi-cloud/esc)
-- :hammer_and_wrench: [How Pulumi ESC works](#how-pulumi-esc-works)
+- :hammer_and_wrench: [How Pulumi ESC Works](#how-pulumi-esc-works)
 - :compass:	[Pulumi ESC Roadmap](#resources)
 - :busts_in_silhouette: [Community](#resources)
 
@@ -63,7 +63,7 @@ $ make install
 
 This will produce an `esc` binary in your `GOBIN` directory.
 
-## How Pulumi ESC works
+## How Pulumi ESC Works
 
 ![Pulumi ESC: Open source secrets managment overview](./assets/pulumi_esc_overview.png)
 
@@ -71,6 +71,21 @@ This will produce an `esc` binary in your `GOBIN` directory.
 2. Pulumi ESC supports a variety of configuration and secrets sources, and it has an extensible plugin model that allows third-party sources.
 3. Pulumi ESC has a rich API that allows for easy integration.  Every value in an environment can be accessed from any execution environment.
 4. Every environment can be locked down with RBAC, versioned, and audited.
+
+### Pulumi ESC Features
+* __Hierarchical Environments__: Environments contain collections of secrets and configuration, and can compose other environments to build derived configurations.
+* __Dynamic + Static Secrets__: Supports static values and dynamic values pulled from systems; static values can be encrypted, and dynamic secrets plugins include AWS OIDC, HashiCorp Vault, AWS Secrets Manager, 1Password, and Pulumi StackReference.
+* __Auditable: Every environment opening is recorded in audit logs, providing a concrete set of configuration derived from imported environments and dynamic secrets.
+* __Consume from Anywhere__: Access ESC via SDK and CLI from any application, infrastructure provider, or automation system, with first-class integrations for Pulumi IaC, local environments, .env files, GitHub Actions, AWS Secrets Manager, and more.
+* __Authentication and RBAC__: Utilize Pulumi Cloud RBAC, including identity providers, teams, and scoped access tokens for secure authentication and role-based access control.
+* __Secrets as Code__: Environments are documents describing how to manage and compose secrets and configuration as code.
+* __Open Source + Managed__: Offers an open-source server with pluggable storage and authentication, as well as a managed service in Pulumi Cloud and Pulumi Cloud Self-hosted options.
+* __Version Control and Rollback__: Manage environment changes with full auditability and rollback capabilities.
+* __Language SDKs__: Use ESC in Python, TypeScript/JavaScript, and Go applications.
+* __Traceability and Auditing__: Track configuration usage and changes.
+* __Composable Environments__: Combine multiple environments for greater flexibility.
+* __Dynamic Configuration Providers__: Support for dynamic configuration providers for more flexible management.
+
 
 ### Why Pulumi ESC?
 
