@@ -4,6 +4,8 @@
    </a>
 
   [![License](https://img.shields.io/github/license/pulumi/pulumi)](LICENSE)
+  [![Slack](http://www.pulumi.com/images/docs/badges/slack.svg)](https://slack.pulumi.com?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=slack-badge)
+
 
 # Pulumi ESC (Environments, Secrets, and Configuration)
 
