@@ -32,19 +32,19 @@ Pulumi is open source under the [Apache 2.0 license](https://github.com/pulumi/p
 
 ## Table of contents
 
-- :rocket: [Getting Started](#getting-started)
-  - :blue_book: [Docs](#docs)
-  - :school: [Learn](#learn)
-  - :hammer_and_wrench: [Examples](#examples)
+- :rocket: [Getting Started with Pulumi](#getting-started)
+  - :blue_book: [Pulumi Docs](#docs)
+  - :school: [Learn Pulumi](#learn)
+  - :hammer_and_wrench: [Pulumi Examples](#examples)
 - :toolbox:	[Registry](#registry)
 - :compass:	[Pulumi Roadmap](#pulumi-roadmap)
-- :busts_in_silhouette: [Community](#community)
+- :busts_in_silhouette: [Pulumi Community](#community)
 - :clap: [Contributing](#contributing)
 
 ## Getting Started
 <img align="right" width="400" src="https://www.pulumi.com/images/docs/quickstart/console.png" />
 
-[![Watch the video](/youtube_preview_image.png)](https://www.youtube.com/watch?v=6f8KF6UGN7g)
+[![Watch the video](/youtube_preview_image.png)](https://www.youtube.com/watch?v=Q8tw6YTD3ac)
 
 Visit our [Get Started with Pulumi](https://www.pulumi.com/docs/quickstart/?utm_campaign=pulumi-pulumi-github-repo&utm_source=github.com&utm_medium=getting-started-quickstart) guides to quickly deploy a simple application in AWS, Azure, Google Cloud, or Kubernetes using Pulumi.
 

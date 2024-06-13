@@ -1,0 +1,103 @@
+
+---
+title: "Debugging Pulumi Programs in Visual Studio Code"
+
+---
+
+## Overview
+
+This guide will help you set up and use Visual Studio Code (VS Code) to debug Pulumi programs written in TypeScript/Node.js. Following these steps ensures a smooth debugging experience, allowing you to identify and fix issues efficiently.
+
+### When to Use IDE Debugging
+
+Debugging your Pulumi programs with an IDE like VS Code is particularly useful in the following scenarios:
+- **Identifying Logical Errors**: When you need to step through your code to understand the flow and identify logical errors or bugs.
+- **Inspecting Variables**: To inspect the state of your variables and program at different execution points.
+- **Complex Breakpoints**: When you need to set breakpoints, especially conditional ones, to pause execution under specific conditions.
+
+### Verbose Logging for Troubleshooting
+
+In addition to using an IDE for debugging, Pulumi offers verbose logging options that can be invaluable for troubleshooting:
+- **Verbose Logging**: Use `PULUMI_DEBUG_GRPC` or `TF_LOG` for detailed logs. This is particularly useful when debugging issues related to resource provisioning, configuration problems, or intermittent errors that are hard to reproduce.
+- **When to Use**: Opt for verbose logging when you need a detailed trace of what Pulumi is doing under the hood, especially useful for identifying issues in the interaction between Pulumi and cloud provider APIs.
+
+## Prerequisites
+
+- [Pulumi CLI](https://www.pulumi.com/docs/get-started/install/)
+- [Node.js](https://nodejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+## Setup and Configuration
+
+### Step 1: Install Dependencies
+
+Ensure you have the necessary dependencies installed. You can install them using npm:
+
+\`\`\`bash
+npm install -g typescript ts-node
+npm install
+\`\`\`
+
+### Step 2: Add Debug Script
+
+Add a debug script to your \`package.json\` to launch Node.js with the \`--inspect-brk\` flag:
+
+\`\`\`json
+"scripts": {
+  "debug": "node --inspect-brk -r ts-node/register index.ts"
+}
+\`\`\`
+
+### Step 3: Create VS Code Launch Configuration
+
+Create or update \`.vscode/launch.json\` with the following configuration to enable debugging:
+
+\`\`\`json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Pulumi Program",
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "debug"],
+      "port": 9229
+    }
+  ]
+}
+\`\`\`
+
+### Step 4: Set Breakpoints
+
+Open your TypeScript files in VS Code and set breakpoints by clicking in the gutter next to the line numbers.
+
+### Step 5: Start Pulumi CLI
+
+In a terminal, navigate to your Pulumi project directory and run:
+
+\`\`\`bash
+pulumi up
+\`\`\`
+
+This starts the Pulumi deployment process.
+
+### Step 6: Start Debugging
+
+Press \`F5\` in VS Code to start debugging. VS Code will attach to the Node.js process, and execution will pause at the first line of your code or at the breakpoints you have set.
+
+## Debugging Tips
+
+- **Inspect Variables**: Hover over variables to see their current values.
+- **Step Through Code**: Use \`F10\` to step over lines of code and \`F11\` to step into functions.
+- **View Call Stack**: Use the Call Stack panel to see the sequence of function calls that led to the current line of execution.
+
+## Additional Resources
+
+- [Pulumi Troubleshooting Guide](https://www.pulumi.com/docs/support/troubleshooting/)
+- [VS Code Debugging Documentation](https://code.visualstudio.com/docs/editor/debugging)
+- [Node.js Debugging Guide](https://nodejs.org/en/docs/guides/debugging-getting-started/)
+
+By following these steps, you'll be able to efficiently debug your Pulumi TypeScript programs using Visual Studio Code. For more detailed information, refer to the links provided in the additional resources section.
