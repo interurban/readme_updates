@@ -47,7 +47,7 @@ For a hands-on, self-paced tutorial see our Pulumi ESC [Getting Started](https:/
 1. **Install**:
 
     To install the latest Pulumi ESC release, run the following (see full
-    [installation instructions](https://https://www.pulumi.com/docs/install/esc/?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=getting-started-install) for additional installation options):
+    [installation instructions](https://www.pulumi.com/docs/install/esc/?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=getting-started-install) for additional installation options):
 
     ```bash
     $ curl -fsSL https://get.pulumi.com/ | sh
