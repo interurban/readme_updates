@@ -35,8 +35,10 @@ Pulumi ESC is offered as a managed service as part of [Pulumi Cloud,](https://ww
 - :rocket: [Getting Started](#getting-started-with-pulumi-esc)
 - :blue_book: [Documentation](https://pulumi.com/docs/pulumi-cloud/esc)
 - :hammer_and_wrench: [How Pulumi ESC Works](#how-pulumi-esc-works)
+- :white_check_mark: [Pulumi ESC Features](#[p]ulumi-esc-features)
 - :compass:	[Pulumi ESC Roadmap](#resources)
 - :busts_in_silhouette: [Community](#resources)
+- :computer: [Resources](#resources)
 
 ## Getting Started with Pulumi ESC
 
