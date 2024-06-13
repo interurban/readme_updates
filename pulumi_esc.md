@@ -73,9 +73,10 @@ This will produce an `esc` binary in your `GOBIN` directory.
 4. Every environment can be locked down with RBAC, versioned, and audited.
 
 ### Pulumi ESC Features
+
 * __Hierarchical Environments__: Environments contain collections of secrets and configuration, and can compose other environments to build derived configurations.
 * __Dynamic + Static Secrets__: Supports static values and dynamic values pulled from systems; static values can be encrypted, and dynamic secrets plugins include AWS OIDC, HashiCorp Vault, AWS Secrets Manager, 1Password, and Pulumi StackReference.
-* __Auditable: Every environment opening is recorded in audit logs, providing a concrete set of configuration derived from imported environments and dynamic secrets.
+* __Auditable__: Every environment opening is recorded in audit logs, providing a concrete set of configuration derived from imported environments and dynamic secrets.
 * __Consume from Anywhere__: Access ESC via SDK and CLI from any application, infrastructure provider, or automation system, with first-class integrations for Pulumi IaC, local environments, .env files, GitHub Actions, AWS Secrets Manager, and more.
 * __Authentication and RBAC__: Utilize Pulumi Cloud RBAC, including identity providers, teams, and scoped access tokens for secure authentication and role-based access control.
 * __Secrets as Code__: Environments are documents describing how to manage and compose secrets and configuration as code.
@@ -85,7 +86,6 @@ This will produce an `esc` binary in your `GOBIN` directory.
 * __Traceability and Auditing__: Track configuration usage and changes.
 * __Composable Environments__: Combine multiple environments for greater flexibility.
 * __Dynamic Configuration Providers__: Support for dynamic configuration providers for more flexible management.
-
 
 ### Why Pulumi ESC?
 
