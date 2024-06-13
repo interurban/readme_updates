@@ -19,7 +19,7 @@ For example, the Pulumi ESC CLI (`esc`) makes it possible to give your developer
 
 ![Pulumi's open source secrets management solution overview](./assets/esc_product_demo.gif)
 
-Pulumi ESC is offered as a managed service as part of Pulumi Cloud, and this repo contains the implementation of the following key components of the ESC open source secrets and configuration management solution:
+Pulumi ESC is offered as a managed service as part of [Pulumi Cloud,](https://www.pulumi.com/product/pulumi-cloud/?utm_campaign=pulumi-esc-github-repo&utm_source=github.com) and this repo contains the implementation of the following key components of the ESC open source secrets and configuration management solution:
 
 1. The `esc` CLI:  A CLI tool for managing and consuming environments, secrets and configuration using Pulumi ESC.
 2. The Pulumi ESC evaluator:  The core specification and implementation of the document format for defining environments, and the syntax and semantics for evaluating environments to produce a set of configuration and secrets.
@@ -32,11 +32,11 @@ Pulumi ESC is offered as a managed service as part of Pulumi Cloud, and this rep
 
 ## Table of contents
 
-- :rocket: [Getting Started](#getting-started)
+- :rocket: [Getting Started](#getting-started-with-pulumi-esc)
 - :blue_book: [Documentation](https://pulumi.com/docs/pulumi-cloud/esc)
 - :hammer_and_wrench: [How Pulumi ESC works](#how-pulumi-esc-works)
-- :compass:	[Pulumi ESC Roadmap](https://github.com/orgs/pulumi/projects/44)
-- :busts_in_silhouette: [Community](https://slack.pulumi.com/?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=welcome-slack)
+- :compass:	[Pulumi ESC Roadmap](#resources)
+- :busts_in_silhouette: [Community](#resources)
 
 ## Getting Started with Pulumi ESC
 
