@@ -98,11 +98,11 @@ make serve     # Run the development server locally on http://localhost:1313.
 make lint      # Identify any Markdown or code-formatting issues so you can fix them.
 ```
 
-### Generating SDK and CLI documentation
+## Generating SDK and CLI documentation
 
 We generate two kinds of reference documentation with this repository: language-specific SDK docs (for a subset of Pulumi packages) and CLI docs (for command-line tools like `pulumi` and `esc`). Instructions for generating both types of docs are listed below.
 
-## SDK docs
+### SDK docs
 
 We build and host language-specific SDK documentation for the following Pulumi packages:
 
