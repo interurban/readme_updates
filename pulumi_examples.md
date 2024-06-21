@@ -92,7 +92,7 @@ Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_ca
 
 ### TypeScript
 
-[(Click here to go back to the main list)](#example-libary)
+[(Click here to go back to the library)](#example-library)
 
 [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
@@ -134,7 +134,7 @@ Example   | Description |
 
 ### JavaScript
 
-[(Click here to go back to the main list)](#example-libary)
+[(Click here to go back to the library)](#example-library)
 
 [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
@@ -150,8 +150,9 @@ Example   | Description |
 
 ### Python
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -169,8 +170,9 @@ Example   | Description |
 
 ### Go
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -183,8 +185,9 @@ Example   | Description |
 
 ### C#
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -197,7 +200,9 @@ Example   | Description |
 
 ### F#
 
-[(Click here to go back to the main list)](#example-libary)
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -208,8 +213,9 @@ Example   | Description |
 
 ### TypeScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -229,8 +235,9 @@ Example   | Description |
 
 ### Python
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -249,8 +256,9 @@ Example   | Description |
 
 ### Go
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -263,8 +271,9 @@ Example   | Description |
 
 ### C#
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -287,8 +296,9 @@ Cluster.
 
 ### TypeScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -302,8 +312,9 @@ Example   | Description |
 
 ### JavaScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -311,8 +322,9 @@ Example   | Description |
 
 ### Python
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -324,8 +336,9 @@ Example   | Description |
 
 ### Go
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -335,8 +348,9 @@ Example   | Description |
 
 ### C#
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -347,8 +361,9 @@ Example   | Description |
 
 ### TypeScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -365,8 +380,9 @@ Example   | Description |
 
 ### Python
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -374,8 +390,9 @@ Example   | Description |
 
 ### C#
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -383,8 +400,9 @@ Example   | Description |
 
 ### Go
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -397,8 +415,9 @@ Example   | Description |
 
 ### Python
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 [Web Server](openstack-py-webserver) | Deploy an Openstack instance and open port 8000.
 
@@ -414,8 +433,9 @@ Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_ca
 
 ### TypeScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -426,8 +446,9 @@ Example   | Description |
 
 ### JavaScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -442,8 +463,9 @@ Example   | Description |
 
 ### TypeScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -452,8 +474,9 @@ Example   | Description |
 
 ### Python
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -462,8 +485,9 @@ Example   | Description |
 
 ### C#
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -474,8 +498,9 @@ Example   | Description |
 
 ### TypeScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -485,8 +510,9 @@ Example   | Description |
 
 ### TypeScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -496,8 +522,9 @@ Example   | Description |
 
 ### TypeScript
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -508,8 +535,9 @@ Example   | Description |
 ### JavaScript
 
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 --------- | --------- |
@@ -517,8 +545,9 @@ Example   | Description |
 
 ## Testing
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 Example   | Description |
 -----          | --------- |
@@ -531,8 +560,9 @@ Example   | Description |
 
 ## Automation API
 
-[(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+[(Click here to go back to the library)](#example-library)
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi example programs in _any_ language.
 
 [Automation API Examples](https://github.com/pulumi/automation-api-examples)
 
