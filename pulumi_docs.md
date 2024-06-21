@@ -13,7 +13,7 @@
 
 ## Table of contents
 
-- :blue_book: [Pulumi Docs](https://pulumi.com?utm_campaign=pulumi-docs-github-repo&utm_source=github.com&utm_medium=docs-toc)
+- :blue_book: [View Pulumi Docs](https://pulumi.com/docs/?utm_campaign=pulumi-docs-github-repo&utm_source=github.com&utm_medium=docs-toc)
 - :clap: [Contributing](#Contributing)
 - :toolbox:	[Setup and Development](#setup)
   - [Toolchain](#toolchain)
