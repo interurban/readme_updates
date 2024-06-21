@@ -67,7 +67,7 @@ This will produce an `esc` binary in your `GOBIN` directory.
 
 ## How Pulumi ESC Works
 
-![Pulumi ESC: Open source secrets managment overview](./assets/pulumi_esc_overview.png)
+![Pulumi ESC: Open source secrets management overview](./assets/pulumi_esc_overview.png)
 
 1. Pulumi ESC enables you to define environments, which are collections of secrets and configuration. Each environment can be composed from multiple environments.
 2. Pulumi ESC supports a variety of configuration and secrets sources, and it has an extensible plugin model that allows third-party sources.
@@ -86,16 +86,16 @@ Pulumi ESC was born to address these problems and needs head on with the followi
 
 ### Pulumi ESC Features
 
-* __Hierarchical Environments__: Environments contain collections of secrets and configuration, but can also import one or more other environments.  Values can be overridden, interpolated from other values, and arbitrarily nested. This allows for flexible composition and reuse, and avoids copy paste.
+* __Hierarchical Environments__: Environments contain collections of secrets and configuration, but can also import one or more other environments. Values can be overridden, interpolated from other values, and arbitrarily nested. This allows for flexible composition and reuse, and avoids copy paste.
 * __Dynamic + Static Secrets__: Supports static values and dynamic values pulled from systems; static values can be encrypted, and dynamic secrets plugins include AWS OIDC, HashiCorp Vault, AWS Secrets Manager, 1Password, and Pulumi StackReference.
 * __Auditable__: Every environment opening is recorded in audit logs, providing a concrete set of configuration derived from imported environments and dynamic secrets.
-* __Consume from Anywhere__: The `esc` CLI and the Pulumi ESC Rest API enables environments to be accessed from any application, infrastructure provider, or automation system.  At launch, first-class integrations are available with Pulumi IaC, local environment and .env files, GitHub Actions, and more.
-* __Authentication and RBAC__: Pulumi ESC brokers access to secrets and configuration that live in other systems, and so authentication and granular RBAC are critical to ensure robust access controls across your organization.  Pulumi ESC leverages the same Pulumi Cloud identity, RBAC, Teams, SAML/SCIM and scoped access tokens that are used for Pulumi IaC today, extending these all to managing access to Environments as well as Stacks.
-* __Configuration as Code__:  Environments are defined as YAML documents which can describe how to project and compose secrets and configuration, integrate dynamic configuration providers, and compute new configuration from other values (construing a URL from a DNS name, or concatenating multiple configuration values into a derived value).  The incredible flexibility of a code-based approach over traditional point-and-click interfaces allows Pulumi ESC to offer rich expressiveness for managing complex configuration.
+* __Consume from Anywhere__: The `esc` CLI and the Pulumi ESC Rest API enable environments to be accessed from any application, infrastructure provider, or automation system. At launch, first-class integrations are available with Pulumi IaC, local environment and .env files, GitHub Actions, and more.
+* __Authentication and RBAC__: Pulumi ESC brokers access to secrets and configuration that live in other systems, and so authentication and granular RBAC are critical to ensure robust access controls across your organization. Pulumi ESC leverages the same Pulumi Cloud identity, RBAC, Teams, SAML/SCIM and scoped access tokens that are used for Pulumi IaC today, extending these all to managing access to Environments as well as Stacks.
+* __Configuration as Code__: Environments are defined as YAML documents which describe how to project and compose secrets and configuration, integrate dynamic configuration providers, and compute new configuration from other values (construing a URL from a DNS name, or concatenating multiple configuration values into a derived value). The incredible flexibility of a code-based approach over traditional point-and-click interfaces allows Pulumi ESC to offer rich expressiveness for managing complex configuration.
 * __Open Source + Managed__: Offers an open-source server with pluggable storage and authentication, as well as a managed service in Pulumi Cloud and Pulumi Cloud Self-hosted options.
 * __Version Control and Rollback__: Manage environment changes with full auditability and rollback capabilities.
 * __Language SDKs__: Use ESC in Python, TypeScript/JavaScript, and Go applications.
-* __Traceability and Auditing__: Environments must be “opened” to compute and see the set of value they provide, and this action is recorded in audit logs, including a full record of how each value was sourced from within the hierarchy of environments that contributed to it.
+* __Traceability and Auditing__: Environments must be “opened” to compute and see the set of values they provide, and this action is recorded in audit logs, including a full record of how each value was sourced from within the hierarchy of environments that contributed to it.
 * __Composable Environments__: Combine multiple environments for greater flexibility.
 * __Dynamic Configuration Providers__: Support for dynamic configuration providers for more flexible management.
 * __Fully Managed__: Pulumi ESC is offered as a fully managed cloud service in Pulumi Cloud (and Pulumi Cloud Self-hosted in the near future). The pulumi/esc project is open source, and contains the evaluation engine for environments, the esc CLI, and in the future, the extensible plugins for source and target integrations.
@@ -113,7 +113,7 @@ Review the planned work for the upcoming quarter and a selected backlog of issue
 ## Resources
 
 - [Docs](https://pulumi.com/docs/pulumi-cloud/esc?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources)
-- [Slack](?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources)
+- [Slack](https://slack.pulumi.com/?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=welcome-slack)
 - [Twitter](https://twitter.com/PulumiCorp)
 - [YouTube](https://www.youtube.com/pulumitv)
 - [Blog](https://pulumi.com/blog?utm_campaign=pulumi-esc-github-repo&utm_source=github.com&utm_medium=esc-resources)
