@@ -42,7 +42,9 @@ See also:
 * [Publishing a Pulumi blog post](./BLOGGING.md)
 * [Documentation and coding style guide](./STYLE-GUIDE.md)
 
-## Toolchain
+# Setup and Development
+
+### Toolchain
 
 We build the Pulumi website with Hugo, manage our dependencies with Node.js and Yarn, and write our documentation in Markdown. Below is a list of the tools you'll need if you'd like to work on the website (e.g., to contribute docs content, a blog post, etc.):
 
@@ -59,7 +61,7 @@ Additionally, to build the SDK and CLI documentation, you'll also need:
 * [Pulumi](https://www.pulumi.com/docs/install)
 * [Pulumi ESC](https://www.pulumi.com/docs/install/esc)
 
-## Repository layout
+### Repository layout
 
 * **Documentation and page content**: We generally follow Hugo's [directory-structure conventions](https://gohugo.io/getting-started/directory-structure/), with Markdown files in `./content`, layout files (including partials and shortcodes) in `./layout`, and data files in `./data`. There are also several [Hugo templates](https://gohugo.io/content-management/archetypes/) available in `./archetypes` for bootstrapping common content types like blog posts and Learn modules.
 
@@ -69,7 +71,7 @@ Additionally, to build the SDK and CLI documentation, you'll also need:
 
 * **Infrastructure**: We deploy the website as a statically built artifact to a unique Amazon S3 bucket on every commit to the base branch of this repo. The Pulumi program that handles this is located in `./infrastructure`. This is also where you'll find the CloudFront configuration that handles proxying [Pulumi AI](https://pulumi.com/ai) and the [Pulumi Registry](https://pulumi.com/registry).
 
-## Using the Makefile
+### Using the Makefile
 
 The `Makefile` exposes a number of useful helpers for authoring:
 
@@ -96,11 +98,11 @@ make serve     # Run the development server locally on http://localhost:1313.
 make lint      # Identify any Markdown or code-formatting issues so you can fix them.
 ```
 
-## Generating SDK and CLI documentation
+### Generating SDK and CLI documentation
 
 We generate two kinds of reference documentation with this repository: language-specific SDK docs (for a subset of Pulumi packages) and CLI docs (for command-line tools like `pulumi` and `esc`). Instructions for generating both types of docs are listed below.
 
-### SDK docs
+## SDK docs
 
 We build and host language-specific SDK documentation for the following Pulumi packages:
 
@@ -122,7 +124,7 @@ make update-repos
 
 Once you've done this, you can generate the docs for each package.
 
-#### Generating the Node.js and Python SDK docs
+### Generating the Node.js and Python SDK docs
 
 The Node and Python SDK docs are built with [TypeDoc](http://typedoc.org/) and [Pydocgen](https://pypi.org/project/pydocgen/). The easiest way to generate these docs is to use the `make generate` helper:
 
@@ -136,7 +138,7 @@ Generated docs are rendered into the `./static-prebuilt/nodejs` and `./static-pr
 
 See below to learn how to view these rendered docs locally.
 
-#### Generating the .NET SDK docs
+### Generating the .NET SDK docs
 
 The .NET SDK docs are built with [Docfx](https://github.com/dotnet/docfx). To generate these, you'll need both `dotnet` and `docfx` installed and on your PATH. For example, assuming you've already [installed the `dotnet` executable](https://dotnet.microsoft.com/en-us/download) for your platform, you can:
 
