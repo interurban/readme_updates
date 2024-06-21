@@ -4,7 +4,7 @@
    </a>
 
   [![Slack](http://www.pulumi.com/images/docs/badges/slack.svg)](https://slack.pulumi.com?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=slack-badge)
-  ![GitHub Discussions](https://img.shields.io/github/discussions/pulumi/pulumi)
+  [![GitHub Discussions](https://img.shields.io/github/discussions/pulumi/pulumi)](https://github.com/pulumi/pulumi/discussions)
   [![License](https://img.shields.io/github/license/pulumi/pulumi)](LICENSE)
 
 **Pulumi's Infrastructure as Code SDK** is the easiest way to build and deploy infrastructure, of any architecture and on any cloud, using programming languages that you already know and love. Code and ship infrastructure faster with your favorite languages and tools, and embed IaC anywhere with [Automation API](https://www.pulumi.com/docs/guides/automation-api/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=about-pulumi).
