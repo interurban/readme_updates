@@ -93,7 +93,8 @@ Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_ca
 ### TypeScript
 
 [(Click here to go back to the main list)](#example-libary)
-Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code programs in _any_ language.
+
+[Try Pulumi Copilot](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=pulumi-examples) and use natural-language prompts to generate Pulumi infrastructure-as-code example programs in _any_ language.
 
 
 Example   | Description |
@@ -539,7 +540,7 @@ Don't see an example listed? [Try Pulumi Copilot](https://app.pulumi.com/?utm_ca
 
 Engage with our community to elevate your developer experience:
 
-- **Join our online [Pulumi Community on Slack](https://slack.pulumi.com/?utm_campaign=pulumi-pulumi-examples-repo&utm_source=github.com&utm_medium=welcome-slack)** - Interact with over 3K Pulumi developers for collaborative problem-solving and knowledge-sharing!
+- **Join our online [Pulumi Community on Slack](https://slack.pulumi.com/?utm_campaign=pulumi-pulumi-examples-repo&utm_source=github.com&utm_medium=welcome-slack)** - Interact with thousands of Pulumi developers for collaborative problem-solving and knowledge-sharing!
 - **Join a [Local Pulumi User Groups (PUGs)](https://www.meetup.com/pro/pugs/)**-  Attend tech-packed meetups and hands-on virtual or in-person workshops.
 - **Follow [@PulumiCorp](https://twitter.com/PulumiCorp) on X (Twitter)** - Get real-time updates, technical insights, and sneak peeks into the latest features.
 - **Subscribe to our YouTube Channel, [PulumiTV](https://www.youtube.com/@PulumiTV)** - Learn about AI / ML essentials, launches, workshops, demos and more.
@@ -562,6 +563,10 @@ Visit our [install page](https://www.pulumi.com/docs/install/?utm_campaign=pulum
 ### Is [Pulumi Cloud](https://app.pulumi.com/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=examples-faq) free?
 
 Individual accounts are always free and allow unlimited resources. See our [pricing page](https://www.pulumi.com/pricing/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=examples-faq) for other options.
+
+## Pulumi ESC Roadmap
+
+Review the planned work for the upcoming quarter and a selected backlog of issues that are on our mind but not yet scheduled on the [Pulumi Roadmap.](https://github.com/orgs/pulumi/projects/44)
 
 ## Pulumi resources
 
