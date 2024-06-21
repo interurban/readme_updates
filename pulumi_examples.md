@@ -594,7 +594,7 @@ Visit our [install page](https://www.pulumi.com/docs/install/?utm_campaign=pulum
 
 Individual accounts are always free and allow unlimited resources. See our [pricing page](https://www.pulumi.com/pricing/?utm_campaign=pulumi-examples-github-repo&utm_source=github.com&utm_medium=examples-faq) for other options.
 
-## Pulumi ESC Roadmap
+## Pulumi roadmap
 
 Review the planned work for the upcoming quarter and a selected backlog of issues that are on our mind but not yet scheduled on the [Pulumi Roadmap.](https://github.com/orgs/pulumi/projects/44)
 
