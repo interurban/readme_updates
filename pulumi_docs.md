@@ -15,7 +15,7 @@
 
 - :blue_book: [View Pulumi Docs](https://pulumi.com/docs/?utm_campaign=pulumi-docs-github-repo&utm_source=github.com&utm_medium=docs-toc)
 - :clap: [Contributing](#Contributing)
-- :toolbox:	[Setup and Development](#setup)
+- :toolbox:	[Setup and Development](#setup-and-development)
   - [Toolchain](#toolchain)
   - [Repository Layout](#repository-layout)
   - [Using the Makefile](#using-the-makefile)
@@ -213,7 +213,7 @@ Review the planned work for the upcoming quarter and a selected backlog of issue
 
 ## Pulumi resources
 
-Delve deeper into our project with additional resources:
+Delve deeper into Pulumi with additional resources:
 
 - [Get Started with Pulumi](https://www.pulumi.com/docs/get-started/?utm_campaign=pulumi-docs-github-repo&utm_source=github.com&utm_medium=docs-resources): Deploy a simple application in AWS, Azure, Google Cloud, or Kubernetes using Pulumi.
 - [Registry](https://www.pulumi.com/registry/?utm_campaign=pulumi-docs-github-repo&utm_source=github.com&utm_medium=docs-resources): Search for packages and learn about the supported resources you need. Install the package directly into your project, browse the API documentation, and start building.
